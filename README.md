@@ -2,7 +2,9 @@
 
 This repo contains a simple implementation of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.  
 
-**Ref.**: FitzHugh, R., Impulses and physiological states in theoretical models of nerve membrane. __*Biophys J*__ 1:445-466, 1961.
+**Ref.:** FitzHugh, R., Impulses and physiological states in theoretical models of nerve membrane. __*Biophys J*__ 1:445-466, 1961.
+
+**Rendered page:** https://frederic-vw.github.io/fhn2d-jl/
 
 **Requirements:**
 1. [julia](https://julialang.org/) installation, latest version tested 1.6.0
