@@ -1,4 +1,4 @@
-# FitzHugh-Nagumo lattice model in *Julia*
+# FitzHugh-Nagumo lattice model in *julia*
 
 This repo contains a simple implementation of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.
 
