@@ -72,7 +72,7 @@ On the right, with reduced diffusion constant `D=0.25`, other parameters identic
 <video src="videos/fhn2d_I_0.50_sd_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
 </p>
 
-**Conclusions:**
+### Conclusions
 The FHN lattice can produce:
 - stimulation-induced travelling waves
 - stimulation-induced spiral waves
