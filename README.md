@@ -2,10 +2,17 @@
 
 This repo contains a simple implementation of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.
 
+**Requirements:**
+1. [julia](https://julialang.org/) installation, latest version tested 1.6.0
+2. julia packages (`julia > using Pkg; Pkg.add("Package Name")`)
+  -- NPZ
+  -- PyPlot
+  -- Statistics
+  -- VideoIO
+
 **Ref.**: FitzHugh, R., Impulses and physiological states in theoretical models of nerve membrane. __*Biophys J*__ 1:445-466, 1961.
 
 ## FitzHugh-Nagumo model
-
 
 The FHN model is a two-variable system for the abstract representation of action potential as those found in neurons or cardiac myocytes. The voltage-like variable $v$ and the recovery variable $w$ implement depolarization current ($I$) induced spiking and a post-spike refractory behaviour.  
 Spatial coupling is introduced via diffusion of the voltage-like variable:
@@ -38,7 +45,7 @@ The main function call running the simulation is: `fhn2d(N, T, t0, a, b, c, I, s
 - `stim`: stimulation current parameters, array of time-, x-, and y-interval borders
 - `blocks`: conduction blocks, array of x- and y-interval borders
 
-**Outputs:** data array (`(T,N,N)`) as NumPy .npy format, data as .mp4 movie.
+**Outputs:** `(T,N,N)` array as NumPy .npy format and as .mp4 movie.
 
 Examples 1, 2 use
 - `stim = [ [[25,50], [1,N], [3,8]], [[130,150], [n_2-2,n_2+2], [10,25]] ]`
