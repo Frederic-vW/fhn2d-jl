@@ -32,16 +32,21 @@ Parameters:
 
 
 ### Example-3
-
-### Example-2
+Large background noise, no stimulation current `stim = []`
 Parameters:  
 `N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, sd = 0.10, D = 1.0, dt = 0.1`
-`stim = []`
 
 <p align="center">
 <video src="videos/FitzHughNagumo2D_I_0.50_sd_0.10_D_1.0.webm" width="256" height="256" controls preload></video>
 </p>
 
+Same, with reduced diffusion constant `D=0.25`
 <p align="center">
-<video src="videos/FitzHughNagumo2D_I_0.50_sd_0.25_D_1.0.webm" width="256" height="256" controls preload></video>
+<video src="videos/FitzHughNagumo2D_I_0.50_sd_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
 </p>
+
+**Conclusions:**
+The FHN lattice can produce:
+- stimulation-induced travelling waves
+- stimulation-induced spiral waves
+- noise-induced spiral waves
