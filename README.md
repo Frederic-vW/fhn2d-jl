@@ -9,13 +9,13 @@ The FHN model is a two-variable system for the abstract representation of action
 Spatial coupling is introduced via diffusion of the voltage-like variable $\nabla v = v_{i-1,j} + v_{i+1,j} + v_{i,j-1} + v_{i,j+1} - 4 v_{i,j}$:
 
 <p align="left">
-<img width="400" src="images/fhn_equations_534_162.png">
+<img width="400" src="images/fhn_equations_534_162_bg.png">
 </p>
 
-Noise is added via It\^o-integration:
+Noise is added via Itô-integration:
 
 <p align="left">
-<img width="250" src="images/fhn_sde_368_96.png">
+<img width="250" src="images/fhn_sde_368_96_bg.png">
 </p>
 
 <!--
