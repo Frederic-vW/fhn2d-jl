@@ -14,10 +14,14 @@ Examples 1, 2 use
 - `stim = [ [[25,50], [1,N], [3,8]], [[130,150], [n_2-2,n_2+2], [10,25]] ]`
 - `blocks = [ [[2*n_4,3*n_4], [15,20]], [[2*n_4+10,3*n_4+10], [40,45]] ]`
 
-**Example-1**
+### Example-1
+Parameters:  
 `N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, sd = 0.02, D = 1.0, dt = 0.1`
-<video src=videos/FitzHughNagumo2D_I_0.50.mp4>
 
-**Example-2**
+<p><video src="videos/FitzHughNagumo2D_I_0.50.mp4"></p>
+
+### Example-2
+Parameters:  
 `N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 1.0, sd = 0.02, D = 1.0, dt = 0.1`
-<video src=videos/FitzHughNagumo2D_I_1.00.mp4>
+
+<p><video src="videos/FitzHughNagumo2D_I_1.00.mp4"></p>
