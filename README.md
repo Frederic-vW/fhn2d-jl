@@ -6,7 +6,7 @@ This repo contains a simple implementation of the FitzHugh-Nagumo model of cellu
 
 
 The FHN model is a two-variable system for the abstract representation of action potential as those found in neurons or cardiac myocytes. The voltage-like variable $v$ and the recovery variable $w$ implement depolarization current ($I$) induced spiking and a post-spike refractory behaviour.  
-Spatial coupling is introduced via diffusion of the voltage-like variable $\nabla v = v_{i-1,j} + v_{i+1,j} + v_{i,j-1} + v_{i,j+1} - 4 v_{i,j}$:
+Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
 <img width="400" src="images/fhn_equations_534_162_bg.png">
