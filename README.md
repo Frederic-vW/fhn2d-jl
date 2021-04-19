@@ -32,17 +32,14 @@ Parameters:
 
 
 ### Example-3
-Large background noise, no stimulation current `stim = []`
-Parameters:  
-`N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, sd = 0.10, D = 1.0, dt = 0.1`
+Large background noise, no stimulation current `stim = []`.
+Parameters on the left:  
+`N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, sd = 0.10, D = 1.0, dt = 0.1`  
+On the right, with reduced diffusion constant `D=0.25`, other parameters identical.
 
 <p align="center">
 <video src="videos/fhn2d_I_0.50_sd_0.10_D_1.00.webm" width="256" height="256" controls preload></video>
-<video src="videos/fhn2d_I_0.50_sd_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
-</p>
-
-Same, with reduced diffusion constant `D=0.25`
-<p align="center">
+<span>     </span>
 <video src="videos/fhn2d_I_0.50_sd_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
 </p>
 
