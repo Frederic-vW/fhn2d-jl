@@ -4,19 +4,22 @@ This repo contains a simple implementation of the FitzHugh-Nagumo model of cellu
 
 ## FitzHugh-Nagumo model
 
-<!--
-<p align="center">
-<img width="350" height="350" src="img/tsne_p100_20080514.png">
+
+<p align="left">
+<img width="400" src="images/fhn_equations.png">
 </p>
--->
+
+<p align="left">
+<img width="250" src="images/fhn_sde.png">
+</p>
+
 <!--
-![tsne_embedding](tsne_p100_20080514.png)
+![FHN equations](images/fhn_equations.png)
 -->
 
-![FHN equations](images/fhn_equations.png)
-
+<!--
 ![FHN SDE](images/fhn_sde.png)
-
+-->
 
 $$ 
 \frac{dv}{dt} = \frac{1}{c} \left( v - \frac{1}{3}v^3 + w + I_t \right) + D \nabla v \\
