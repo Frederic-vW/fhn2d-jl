@@ -6,11 +6,11 @@ This repo contains a simple implementation of the FitzHugh-Nagumo model of cellu
 
 
 <p align="left">
-<img width="400" src="images/fhn_equations.png">
+<img width="400" src="images/fhn_equations_535_163.png">
 </p>
 
 <p align="left">
-<img width="250" src="images/fhn_sde.png">
+<img width="250" src="images/fhn_sde_372_99.png">
 </p>
 
 <!--
