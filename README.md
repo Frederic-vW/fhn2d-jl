@@ -2,6 +2,9 @@
 
 This repo contains a simple implementation of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.
 
+FitzHugh, R., Impulses and physiological states in theoretical models of nerve membrane. __*Biophys J*__ 1:445-466, 1961.
+1961 445-466.
+
 ## FitzHugh-Nagumo model
 
 
@@ -35,6 +38,8 @@ The main function call running the simulation is: `fhn2d(N, T, t0, a, b, c, I, s
 - `dt`: integration time step
 - `stim`: stimulation current parameters, array of time-, x-, and y-interval borders
 - `blocks`: conduction blocks, array of x- and y-interval borders
+
+**Outputs:** data array (`(T,N,N)`) as NumPy .npy format, data as .mp4 movie.
 
 Examples 1, 2 use
 - `stim = [ [[25,50], [1,N], [3,8]], [[130,150], [n_2-2,n_2+2], [10,25]] ]`
