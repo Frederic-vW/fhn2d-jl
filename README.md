@@ -1,18 +1,25 @@
-# FitzHugh-Nagumo lattice model in *julia*
+# FitzHugh-Nagumo lattice model in *Python* and *julia*
 
 This repo contains a simple implementation of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.  
 
 **Ref.:** FitzHugh, R., Impulses and physiological states in theoretical models of nerve membrane. __*Biophys J*__ 1:445-466, 1961.
 
-**Rendered page:** https://frederic-vw.github.io/fhn2d-jl/
+**Rendered page:** https://frederic-vw.github.io/fitzhugh-nagumo-2d/
 
-**Requirements:**
+**_Python_ Requirements:**
+1. [python](https://www.python.org/) installation, latest version tested 3.6.9
+2. python packages (`pip install package-name`)
+  - NumPy
+  - Matplotlib
+  - opencv-python (save data as movie)
+
+**_Julia_ Requirements:**
 1. [julia](https://julialang.org/) installation, latest version tested 1.6.0
 2. julia packages (`julia > using Pkg; Pkg.add("Package Name")`)
   - NPZ
   - PyPlot
   - Statistics
-  - VideoIO
+  - VideoIO (save data as movie)
 
 ## FitzHugh-Nagumo model
 
