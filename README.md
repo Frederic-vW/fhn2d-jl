@@ -28,7 +28,7 @@ The FHN model is a two-variable system for the abstract representation of action
 Spatial coupling is introduced via diffusion of the voltage-like variable:
 
 <p align="left">
-<img width="400" src="images/fhn_equations_553_168_bg.png">
+<img width="400" src="images/fhn_equations_544_156_bg.png">
 </p>
 
 Noise is added via Itô-integration:
