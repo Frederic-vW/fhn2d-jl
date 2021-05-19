@@ -49,10 +49,11 @@ The main function call running the simulation is: `fhn2d(N, T, t0, a, b, c, I, s
 - `N`: lattice size `(N,N)`
 - `T`: number of simulation time steps
 - `t0`: number of 'warm-up' iterations
-- `a,b,c,I`: FHN model parameters, `I`: stimulation current amplitude
+- `dt`: integration time step
 - `s`: noise intensity (&sigma;)
 - `D`: diffusion constant
-- `dt`: integration time step
+- `a,b,c,I`: FHN model parameters, `I`: stimulation current amplitude
+
 - `stim`: stimulation current parameters, array of time-, x-, and y-interval borders
 - `blocks`: conduction blocks, array of x- and y-interval borders
 
@@ -67,7 +68,7 @@ where `n_2` is the (rounded) integer `N/2`, `n_4` is the (rounded) integer `N/4`
 Stimulation near the left border generates a travelling wave which breaks at and merges after the conduction blocks. 
 After-depolarization does not change the qualitative behaviour of a travelling wave.
 Parameters:  
-`N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, s = 0.02, D = 1.0, dt = 0.1`
+`N = 128, T = 1000, t0 = 0, dt = 0.1, s = 0.02, D = 1.0, a = 0.5, b = 0.7, c = 0.3, I = 0.5`
 
 <p align="center">
 <video src="videos/fhn2d_I_0.50_sd_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
@@ -76,7 +77,7 @@ Parameters:
 ### Example-2
 Increasing the stimulation current while maintaining all other variables constant generates **functional re-entry** (spiral waves) originating where the 2nd stimulus hits repolarizing tissue.
 Parameters:  
-`N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 1.0, sd = 0.02, D = 1.0, dt = 0.1`
+`N = 128, T = 1000, t0 = 0, dt = 0.1, s = 0.02, D = 1.0, a = 0.5, b = 0.7, c = 0.3, I = 1.0`
 
 <p align="center">
 <video src="videos/fhn2d_I_1.00_sd_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
@@ -85,7 +86,7 @@ Parameters:
 ### Example-3
 Without a stimulus current (`stim = []`), a large background noise can generate re-entry patterns.
 Parameters on the left:  
-`N = 128, T = 1000, t0 = 0, a = 0.5, b = 0.7, c = 0.3, I = 0.5, sd = 0.10, D = 1.0, dt = 0.1`  
+`N = 128, T = 1000, t0 = 0, dt = 0.1, sd = 0.10, D = 1.0, a = 0.5, b = 0.7, c = 0.3, I = 0.5`  
 On the right, with reduced diffusion constant `D=0.25`, other parameters identical.
 
 <p align="center">
