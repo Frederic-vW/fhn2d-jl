@@ -18,6 +18,7 @@ The code is available in Python and Julia.
 1. [julia](https://julialang.org/) installation, latest version tested 1.6.0
 2. julia packages (`julia > using Pkg; Pkg.add("Package Name")`)
   - NPZ
+  - PyCall (load Matplotlib animation functionality)
   - PyPlot
   - Statistics
   - VideoIO (save data as movie)
