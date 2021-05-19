@@ -52,8 +52,7 @@ The main function call running the simulation is: `fhn2d(N, T, t0, a, b, c, I, s
 - `dt`: integration time step
 - `s`: noise intensity (&sigma;)
 - `D`: diffusion constant
-- `a,b,c,I`: FHN model parameters, `I`: stimulation current amplitude
-
+- `a,b,c`: FHN model parameters, `I`: stimulation current amplitude
 - `stim`: stimulation current parameters, array of time-, x-, and y-interval borders
 - `blocks`: conduction blocks, array of x- and y-interval borders
 
