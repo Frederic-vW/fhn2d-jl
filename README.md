@@ -72,7 +72,7 @@ Parameters:
 `N = 128, T = 1000, t0 = 0, dt = 0.1, s = 0.02, D = 1.0, a = 0.5, b = 0.7, c = 0.3, I = 0.5`
 
 <p align="center">
-<video src="videos/fhn2d_I_0.50_sd_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
+<video src="videos/fhn2d_I_0.50_s_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
 </p>
 
 ### Example-2
@@ -81,7 +81,7 @@ Parameters:
 `N = 128, T = 1000, t0 = 0, dt = 0.1, s = 0.02, D = 1.0, a = 0.5, b = 0.7, c = 0.3, I = 1.0`
 
 <p align="center">
-<video src="videos/fhn2d_I_1.00_sd_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
+<video src="videos/fhn2d_I_1.00_s_0.02_D_1.00.webm" width="256" height="256" controls preload></video>
 </p>
 
 ### Example-3
@@ -91,9 +91,9 @@ Parameters on the left:
 On the right, with reduced diffusion constant `D=0.25`, other parameters identical.
 
 <p align="center">
-<video src="videos/fhn2d_I_0.50_sd_0.10_D_1.00.webm" width="256" height="256" controls preload></video>
+<video src="videos/fhn2d_I_0.50_s_0.10_D_1.00.webm" width="256" height="256" controls preload></video>
 <span>     </span>
-<video src="videos/fhn2d_I_0.50_sd_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
+<video src="videos/fhn2d_I_0.50_s_0.10_D_0.25.webm" width="256" height="256" controls preload></video>
 </p>
 
 ### Conclusions
