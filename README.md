@@ -1,6 +1,6 @@
 # FitzHugh-Nagumo lattice model in *Python* and *julia*
 
-[![DOI](zenodo.4771538.svg)](https://zenodo.org/badge/latestdoi/359287694)
+To cite this code, please use: [![DOI](zenodo.4771538.svg)](https://zenodo.org/badge/latestdoi/359287694)
 
 This repo contains simple implementations of the FitzHugh-Nagumo model of cellular excitability on a 2D lattice.  
 The code is available in Python and Julia.  
